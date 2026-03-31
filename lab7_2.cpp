@@ -29,12 +29,10 @@ int main() {
     int gear;
 
     cout << "Fahsai: Sawadee ka...Can you tell me your name?" << endl;
-
     cout << "?????: ";
     getline(cin, name);
 
     cout << "Fahsai: Wow!!! " << name << " is a really cool name." << endl;
-
     cout << "Fahsai: I think you are an Engineering student. What is your student ID?" << endl;
 
     cout << name << ": ";
@@ -47,7 +45,6 @@ int main() {
          << ". I have a free movie ticket for you." << endl;
 
     cout << "Fahsai: Let's go to the cinema together!!!" << endl;
-
     cout << "Fahsai: What movie do you want to watch?" << endl;
 
     cout << name << ": ";
@@ -61,7 +58,6 @@ int main() {
     cout << "Fahsai: " << day 
          << "....that is OK!!! I'm looking forward to watching " 
          << movie << " with you." << endl;
-
     cout << name << ": Fahsai: 555+ see you " << day << ". Bye Bye \\(^ ^)/" << endl;
 
     return 0;
